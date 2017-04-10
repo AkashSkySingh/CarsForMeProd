@@ -1,0 +1,64 @@
+@import './header.css';
+@import './footer.css';
+@import './splash.css';
+@import './car_list.css';
+@import './car_detail.css';
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  font-family: 'Cabin', sans-serif;
+}
+
+.root-follow {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  min-width: 800px;
+}
+
+@media screen {
+  html {
+    background: url(https://wallpaperscraft.com/image/manhattan_new_york_street_car_106203_3840x2400.jpg) #191919 no-repeat center center fixed;
+    background-size: cover;
+  }
+}
+
+/*
+  Font Types:
+  font-family: 'Cabin', sans-serif;
+  font-family: 'Dosis', sans-serif;
+*/
+
+/*
+  Palette:
+
+*/
+
+/*
+  logo_img: http://res.cloudinary.com/nightstock/image/upload/s--huWnN3j0--/v1491701654/automobile-1300231_960_720_sw8xc3.png
+*/
+
+/*
+  bg image:
+  https://wallpaperscraft.com/image/manhattan_new_york_street_car_106203_3840x2400.jpg
+*/

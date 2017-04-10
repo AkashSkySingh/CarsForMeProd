@@ -1,0 +1,92 @@
+.carlist-middle {
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+  margin: auto;
+}
+
+/*.carlist-filter {
+  max-width: 400px;
+  height: 100%;
+  vertical-align: middle;
+  text-align: center;
+  margin: auto;
+  position: fixed;
+  left: 0%;
+  background-color: black;
+}*/
+
+.carlist-table {
+  max-width: 800px;
+  margin: auto;
+  padding-bottom: 65px;
+  background-color: rgba(0, 0, 0, .5);
+  border-radius: 0 30px 30px 0;
+  position: relative;
+  top: 10%;
+  left: 0%;
+}
+
+.carlist {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  max-width: 100%;
+}
+
+.carlist-item {
+  text-align: left;
+  max-width: 100%;
+  max-height: 150px;
+  margin: 15px;
+  padding: 9px;
+  background-color: rgba(255, 255, 255, .7);
+  border-radius: 0 25px 25px 0;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.carlist-link {
+  display: flex;
+  flex-direction: row;
+}
+
+.carlist-item-img {
+  min-width: 300px;
+  width: 300px;
+  height: 100%;
+  margin-right: 30px;
+}
+
+.carlist-item-text {
+  display: flex;
+  flex-direction: column;
+  min-width: 400px;
+  width: 400px;
+}
+
+.carlist-item:hover {
+  background-color: rgba(255, 255, 255, .9);
+  border: 1px solid black;
+}
+
+.carlist-item-text h2 {
+  font-size: 25px;
+  text-align: center;
+}
+
+.carlist-item-text h3 {
+  font-size: 18px;
+  margin-right: 20px;
+}
+
+.carlist-item-text h4 {
+  font-size: 15px;
+  font-family: 'Dosis', sans-serif;
+  margin-right: 20px;
+}
+
+.carlist-item-divs {
+  display: flex;
+  flex-direction: row;
+}
